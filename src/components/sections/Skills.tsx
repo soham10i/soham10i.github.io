@@ -3,12 +3,20 @@
 import { motion } from 'framer-motion';
 import { skills } from '@/data/portfolio';
 
-const categoryColors: Record<string, string> = {
-  Programming: 'from-blue-500/20 to-blue-600/5 border-blue-500/30 text-blue-300',
-  'ML & AI': 'from-purple-500/20 to-purple-600/5 border-purple-500/30 text-purple-300',
-  'Data & Cloud': 'from-cyan-500/20 to-cyan-600/5 border-cyan-500/30 text-cyan-300',
-  Visualization: 'from-green-500/20 to-green-600/5 border-green-500/30 text-green-300',
-  Tools: 'from-orange-500/20 to-orange-600/5 border-orange-500/30 text-orange-300',
+const categoryGradients: Record<string, string> = {
+  Programming: 'from-blue-500/20 to-blue-600/5 border-blue-500/30',
+  'ML & AI': 'from-purple-500/20 to-purple-600/5 border-purple-500/30',
+  'Data & Cloud': 'from-cyan-500/20 to-cyan-600/5 border-cyan-500/30',
+  Visualization: 'from-green-500/20 to-green-600/5 border-green-500/30',
+  Tools: 'from-orange-500/20 to-orange-600/5 border-orange-500/30',
+};
+
+const categoryTextColors: Record<string, string> = {
+  Programming: 'text-blue-300',
+  'ML & AI': 'text-purple-300',
+  'Data & Cloud': 'text-cyan-300',
+  Visualization: 'text-green-300',
+  Tools: 'text-orange-300',
 };
 
 const badgeColors: Record<string, string> = {
@@ -42,9 +50,9 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className={`glass rounded-2xl p-6 bg-gradient-to-br ${categoryColors[category]} border`}
+              className={`glass rounded-2xl p-6 bg-gradient-to-br ${categoryGradients[category]} border`}
             >
-              <h3 className={`text-base font-semibold mb-4 ${categoryColors[category].split(' ').pop()}`}>
+              <h3 className={`text-base font-semibold mb-4 ${categoryTextColors[category]}`}>
                 {category}
               </h3>
               <div className="flex flex-wrap gap-2">

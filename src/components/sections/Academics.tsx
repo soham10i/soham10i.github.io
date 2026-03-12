@@ -87,7 +87,7 @@ export default function Academics() {
                     ))}
                   </div>
                   <p className="text-xs text-gray-500 mt-4">
-                    * German grading scale: 1.0 (best) – 4.0 (passing). Bar width = ((4.0 - grade) / 3.0) × 100%
+                    * German grading scale: 1.0 (best) - 4.0 (passing). Bar width = ((4.0 - grade) / 3.0) * 100%
                   </p>
                 </div>
               )}
