@@ -1,7 +1,7 @@
 # soham10i.github.io — Personal Portfolio
 
 [![Deploy to GitHub Pages](https://github.com/soham10i/soham10i.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/soham10i/soham10i.github.io/actions/workflows/deploy.yml)
-![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38bdf8?logo=tailwindcss)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-ff69b4?logo=framer)
@@ -12,7 +12,7 @@ A modern, dark-themed personal portfolio for Soham — M.Sc. AI student at OTH A
 
 ## Tech Stack
 
-- **Framework:** Next.js 14 (App Router, static export)
+- **Framework:** Next.js 16 (App Router, static export)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS + glassmorphism effects
 - **Animations:** Framer Motion
