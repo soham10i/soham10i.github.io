@@ -30,8 +30,14 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files – keep .example files for documentation
+.env
+.env.local
+.env.*.local
+backend/.env
+# allow example files
+!.env.local.example
+!backend/.env.example
 
 # vercel
 .vercel
@@ -39,3 +45,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.pytest_cache/
+*.egg-info/
+dist/
+.venv/
+venv/
