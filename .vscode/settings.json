@@ -1,0 +1,21 @@
+{
+  "github.copilot.advanced": {},
+  "github.copilot.chat.models": [
+    "gpt-4o",
+    "gpt-4.1",
+    "o3",
+    "o4-mini",
+    "claude-opus-4-5",
+    "claude-sonnet-4-5",
+    "claude-haiku-3-5",
+    "gemini-2.0-flash"
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "javascript": true,
+    "json": true
+  }
+}
